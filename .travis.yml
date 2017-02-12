@@ -14,7 +14,7 @@ after_failure: if [ "$GH_TOKEN" ]; then grunt gh-pages:crafty-distro-regression-
 
 env:
   global:
-  - SAUCE_BRANCH=testing
+  - SAUCE_BRANCH=open-sauce-testing
   # GitHub token
   - secure: p6SeAGd+Gohr6XeDkb5JPSQBu88UxAjljSMK0BNLJQgr8GkoA3mSJWy4uX0YjNq93VX4UMFxr0D4MlkcWZpX+cdN8K9PpxOgTq8Ml1Ljs355zbX9U/CdY99okiwzHktY4qKXBPsHLiEuCBeJ6pxs/v7m9z88mkjwDSunJG7F1oo=
   # OpenSauce credentials: for pre-relase testing
